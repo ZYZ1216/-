@@ -1,0 +1,45 @@
+<html>
+ <body>
+   <h1 align="center">简历</h1>  
+   
+   <p>
+     郑大钱<br>电话：187xxxxxxxx<br>邮箱：Bigmoney@xxxx.com<br>
+   <hr>
+   </p>
+  
+  <div class="test"> 
+   <h2>学历</h2><hr>
+   <p class="opp">2015-2017 马里兰州里大学 机械工程 硕士<br>
+     2010-2014 北京xx大学 机械工程 本科<br></p>
+   </div> 
+  
+   <h2>工作经历</h2><hr>
+   <p>2019.11-至今     xxx科技公司 机械设计<br>
+     2019.3-2019.11  多玩互动 游戏策划<br>
+     2017.8-2018.9  奇虎360 游戏产品经理<br>
+   </p>
+  <h2>作品</h2><hr>
+  <a class="gre"href="http://v.qq.com/vplus/8c8dc004bf2dfca667d5bd9617482a49">乐高无限编程教程</a>
+ </body>  
+</html>
+
+
+————————————css————————————————
+
+.test{
+  background-color:yellow;
+}
+h1{
+  color: dark;
+  background-color:grey;padding:20px;    
+  border: 2px solid black;
+}
+p{
+  color:orange;
+}
+.opp{
+  color:red;
+}
+.gre{
+  color:green;
+}
