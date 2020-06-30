@@ -3,38 +3,102 @@
     <head>
         <meta charset="utf-8">
         <title>First resume</title>
-        <link rel="stylesheet" href="styles1.css">
+        <link rel="stylesheet" href="styles3.css">
     </head>
 
-<h1>简历</h1>
-
+<h1 class="Jianli">简历</h1>
+<zhengwen>
+<m>
 <h2>基本信息</h2>
 <p>
     <span class="XBT"><strong>姓名</strong> 张三</span><span class="XBT"><strong>姓别</strong> 男</span><span><strong>应聘职位</strong> Web前端工程师</span>
 </p>
-
+</m>
+<m>
 <h2>联系方式</h2>
 <p>
     <span class="XBT"><strong>手机</strong> 187 0000 0000</span><span class="XBT"><strong>Email</strong> jhk4864@139.com</span><span><strong>个人主页</strong> Github.com</span>
 </p>
-
+</m>
+<m>
 <h2>能力描述</h2>
 <p>
     <span class="XBT"><strong>技术能力</strong><br>熟练掌握HTML，CSS，Javascript</span><br><br>
     <span class="XBT"><strong>综合能力</strong><br>良好的沟通，主动积极，努力勤奋</span>
 </p>
-
+</m>
+<m>
 <h2>教育经历</h2>
 <p>
     <span class="XBT"><strong>本科</strong><br>百度前端技术学院</span><br><br>
     <span class="XBT"><strong>研究生</strong><br>百度前端技术学院</span>
 </p>
-
+</m>
+<m>
+<h2>项目经历</h2>
+<p>
+    <span class="XBT"><strong>本科</strong><br>百度前端技术学院</span><br><br>
+    <span class="XBT"><strong>研究生</strong><br>百度前端技术学院</span>
+</p>
+</m>
+</zhengwen>
 </body>
-
-
 ————————————————————————————————————
+【】styles1.css
 .XBT{
     margin-right: 5em;
 }
-        
+
+【】styles2.css
+.XBT{
+    margin-right: 3em;
+
+}
+
+.Jianli{
+    background-color: deepskyblue;
+    width: 4em;
+    text-align: center;
+    line-height: 3.5;
+}
+body{
+    display:flex;
+    
+}
+
+zhengwen{
+    position: relative;
+    left: 20px;
+}
+
+【】styles3.css
+.XBT{
+    margin-right: 3em;
+
+}
+.Jianli{
+    background-color:rgb(85, 85, 85);
+    width: 25em;
+    line-height: 3.5;
+}
+
+h2{
+    background-color:rgb(202, 202, 202);
+    width: 5em;
+    height: 5em;
+    line-height: 5em;
+    text-align: center;
+}
+
+p{
+    position: relative;
+    left: 1em;
+    top: 1em;
+}
+
+
+m{
+  display: flex;  
+  
+}
+
