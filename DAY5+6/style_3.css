@@ -40,8 +40,16 @@ span {
 .right{
     display: flex;
     /* 布局 */    
-    /* flex-direction: row;  */
+    /* flex-direction: column;  */
     height: 100px;
     background-color: rgb(212, 212, 212); 
     width: 700px;   
+}
+.right1{
+    display: flex;
+    /* 布局 */    
+    flex-direction: column; 
+    height: 100px;
+    background-color: rgb(212, 212, 212); 
+    width: 700px; 
 }
