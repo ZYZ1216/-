@@ -1,0 +1,47 @@
+.box{
+    display: flex;
+    flex-direction: column; 
+    /* 垂直 */
+    margin: 0 auto; 
+    /* 居中 */
+    width: 800px;   
+    background-color: black; 
+}
+.title{
+    background-color: rgb(114, 114, 114);
+    height: 100px;
+    display: flex;/* 布局 */
+    align-items: center;/* 居中 */
+ 
+}
+
+.left{    
+    display: flex;
+    /* 布局 */    
+    align-items: center;
+    justify-content: center;
+    /* 居中 */
+
+    background-color: rgb(170, 170, 170);
+    height: 100px;
+    width: 100px;
+}
+
+.line{
+    display: flex;
+    border: 1px solid #ffffff;
+}
+p{
+    padding-left: 20px;
+}
+span {
+    font-weight: bold;
+}
+.right{
+    display: flex;
+    /* 布局 */    
+    /* flex-direction: row;  */
+    height: 100px;
+    background-color: rgb(212, 212, 212); 
+    width: 700px;   
+}
